@@ -8,15 +8,35 @@ import Navbar from './components/layout/Navbar'
 import Portfolio from './components/layout/Portfolio'
 import Resume from './components/layout/Resume'
 
+import { TracingBeam } from './components/ui/TracingBeam'
+
 function page() {
   return (
     <>
-    <div className="hero h-screem w-full bg-black">
+
+    <div className="hero h-screen w-full bg-black overflow-hidden">
+
       <nav>
         <Navbar/>
       </nav>
         <Hero/>
+
     </div>
+
+    <div className="hero h-screen w-full bg-black">
+
+    <About></About>
+
+    </div>
+
+    <div className="hero h-screen w-full bg-black">
+
+    <Resume></Resume>
+
+    </div>
+
+
+
     </>
   )
 }
