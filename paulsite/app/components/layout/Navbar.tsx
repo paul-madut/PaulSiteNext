@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-
+import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Navbar() {
@@ -8,8 +9,13 @@ export default function Navbar() {
  
   return (
     <nav className="navbar flex justify-center ">
-        <div className="navbar flex justify-between items-center p-6 m-4 w-3/4 h-12 bg-black text-white border-[1px] rounded-3xl border-grey-200 fixed z-10"  >
+        <div className="navbar flex justify-between items-center p-6 m-4 w-full h-12 bg-black text-[#787878] border-b-[1px] border-[#212121] fixed z-10"  >
 
+            <Link href="/">
+            <Image src="/ptp.png" alt="logo" width={100} height={100}>
+            
+            </Image>
+            </Link>
 
             <a className="flex space-r-60" href="index.html" id="navbar__logo"> </a>
         

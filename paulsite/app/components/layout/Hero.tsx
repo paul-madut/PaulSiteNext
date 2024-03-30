@@ -15,6 +15,7 @@ function  Hero() {
       <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
         Paul the Programmer
       </h1>
+      <p className="text-lg lg:text-2xl text-center text-[#787878] py-2">I make things on the web. Come take a look</p>
       </div>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
@@ -25,7 +26,7 @@ function  Hero() {
 
         {/* Core component */}
         <SparklesCore
-          background="transparent"
+          background="#transparent"
           minSize={0.6}
           maxSize={1}
           particleDensity={1200}
@@ -37,11 +38,13 @@ function  Hero() {
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
     </div>
+
+    
     <div className="hero__bottom flex justify-between w-screen grid-col-3">
     <Socials></Socials>
-    <FontAwesomeIcon className="text-6xl self-end" icon={faCircleDown} style={{color: "#b8c0c7",}} />
+    <FontAwesomeIcon className=" pulse text-6xl self-end right-1/2 bottom-12 absolute" icon={faCircleDown} style={{color: "#FFF",}} />
 
-    <p className="text-white text-lg -rotate-90">paul.madut@icloud.com</p>
+    <p className="text-white text-lg -rotate-90 absolute bottom-32 left-[92%]">paul.madut@icloud.com</p>
     </div>
           </div>
   );
