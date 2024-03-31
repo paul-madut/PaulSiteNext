@@ -26,3 +26,11 @@
 .pulse {
   animation: pulse-animation 2s infinite;
 }
+
+
+.gradient-text {
+  @apply bg-gradient-to-r from-[#Ef33f2] to-[#3544dc] bg-clip-text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* For Safari */
+}
