@@ -8,7 +8,6 @@ import Navbar from './components/layout/Navbar'
 import Portfolio from './components/layout/Portfolio'
 import Resume from './components/layout/Resume'
 
-import { TracingBeam } from './components/ui/TracingBeam'
 
 function page() {
   return (
