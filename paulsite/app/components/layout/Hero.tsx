@@ -47,6 +47,36 @@ function Hero() {
         <div className="socials absolute bottom-0">
 
         {/* <Socials /> */}
+        <div className="socials p-10 space-y-2">
+    <ul className="space-y-4"> 
+        <li id="Instagram">
+            <a href="https://www.instagram.com/paultheprogrammer/" target="_blank" aria-label="Instagram">
+                <i className="fab fa-instagram fa-2x text-white" ></i>
+            </a>
+        </li>
+        <li id="Linkedin">
+            <a href="https://www.linkedin.com/in/paul-madut" target="_blank" aria-label="LinkedIn">
+                <i className="fab fa-linkedin fa-2x text-white" ></i>
+            </a>
+        </li>
+        <li id="Mail">
+            <a href="mailto:paulmadut@paultheprogrammer.ca" target="_blank" aria-label="Mail">
+                <i className="fas fa-envelope fa-2x text-white" ></i>
+            </a>
+        </li>
+        <li id="Github">
+            <a href="https://github.com/paul-madut" target="_blank" aria-label="GitHub">
+                <i className="fab fa-github fa-2x text-white" ></i>
+            </a>
+        </li>
+        <li id="Tiktok">
+            <a href="https://www.tiktok.com/@paultheprogrammer" target="_blank" aria-label="Tiktok">
+                <i className="fab fa-tiktok fa-2x text-white" ></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
         </div>
 
         <p className="text-white text-lg -rotate-90 absolute bottom-32 left-[92%]">
